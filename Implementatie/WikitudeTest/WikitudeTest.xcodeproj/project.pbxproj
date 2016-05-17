@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7F3FED1CE6026B00344D1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F3FEC1CE6026B00344D1E /* main.m */; };
+		DB7F3FF01CE6026B00344D1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F3FEF1CE6026B00344D1E /* AppDelegate.m */; };
+		DB7F3FF31CE6026B00344D1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F3FF21CE6026B00344D1E /* ViewController.m */; };
+		DB7F3FF61CE6026B00344D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7F3FF41CE6026B00344D1E /* Main.storyboard */; };
+		DB7F3FF81CE6026B00344D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7F3FF71CE6026B00344D1E /* Assets.xcassets */; };
+		DB7F3FFB1CE6026B00344D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7F3FF91CE6026B00344D1E /* LaunchScreen.storyboard */; };
+		DB7F40061CE6026B00344D1E /* WikitudeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F40051CE6026B00344D1E /* WikitudeTestTests.m */; };
+		DB7F40111CE6026B00344D1E /* WikitudeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7F40101CE6026B00344D1E /* WikitudeTestUITests.m */; };
+		DB7F40201CE602C300344D1E /* WikitudeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F401F1CE602C300344D1E /* WikitudeSDK.framework */; };
+		DB7F40311CE603AE00344D1E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40211CE603AE00344D1E /* Accelerate.framework */; };
+		DB7F40321CE603AE00344D1E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40221CE603AE00344D1E /* AssetsLibrary.framework */; };
+		DB7F40331CE603AE00344D1E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40231CE603AE00344D1E /* AVFoundation.framework */; };
+		DB7F40341CE603AE00344D1E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40241CE603AE00344D1E /* CFNetwork.framework */; };
+		DB7F40351CE603AE00344D1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40251CE603AE00344D1E /* CoreGraphics.framework */; };
+		DB7F40361CE603AE00344D1E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40261CE603AE00344D1E /* CoreLocation.framework */; };
+		DB7F40371CE603AE00344D1E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40271CE603AE00344D1E /* CoreMotion.framework */; };
+		DB7F40381CE603AE00344D1E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40281CE603AE00344D1E /* CoreVideo.framework */; };
+		DB7F40391CE603AE00344D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40291CE603AE00344D1E /* Foundation.framework */; };
+		DB7F403A1CE603AE00344D1E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F402A1CE603AE00344D1E /* JavaScriptCore.framework */; };
+		DB7F403B1CE603AE00344D1E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F402B1CE603AE00344D1E /* MediaPlayer.framework */; };
+		DB7F403C1CE603AE00344D1E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F402C1CE603AE00344D1E /* OpenGLES.framework */; };
+		DB7F403D1CE603AE00344D1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F402D1CE603AE00344D1E /* QuartzCore.framework */; };
+		DB7F403E1CE603AE00344D1E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F402E1CE603AE00344D1E /* Security.framework */; };
+		DB7F403F1CE603AE00344D1E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F402F1CE603AE00344D1E /* SystemConfiguration.framework */; };
+		DB7F40401CE603AE00344D1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40301CE603AE00344D1E /* UIKit.framework */; };
+		DB7F40421CE603C700344D1E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40411CE603C700344D1E /* libc++.tbd */; };
+		DB7F40441CE603D200344D1E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F40431CE603D200344D1E /* libz.tbd */; };
+		DBBC40E71CEA088D00955C8B /* imageOne.png in Resources */ = {isa = PBXBuildFile; fileRef = DBBC40DF1CEA088D00955C8B /* imageOne.png */; };
+		DBBC40E81CEA088D00955C8B /* magazine.wtc in Resources */ = {isa = PBXBuildFile; fileRef = DBBC40E01CEA088D00955C8B /* magazine.wtc */; };
+		DBBC40E91CEA088D00955C8B /* surfer.png in Resources */ = {isa = PBXBuildFile; fileRef = DBBC40E11CEA088D00955C8B /* surfer.png */; };
+		DBBC40EA1CEA088D00955C8B /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = DBBC40E31CEA088D00955C8B /* default.css */; };
+		DBBC40EB1CEA088D00955C8B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DBBC40E41CEA088D00955C8B /* index.html */; };
+		DBBC40EC1CEA088D00955C8B /* imageontarget.js in Resources */ = {isa = PBXBuildFile; fileRef = DBBC40E61CEA088D00955C8B /* imageontarget.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB7F40021CE6026B00344D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB7F3FE01CE6026A00344D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7F3FE71CE6026B00344D1E;
+			remoteInfo = WikitudeTest;
+		};
+		DB7F400D1CE6026B00344D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB7F3FE01CE6026A00344D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7F3FE71CE6026B00344D1E;
+			remoteInfo = WikitudeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB7F3FE81CE6026B00344D1E /* WikitudeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikitudeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7F3FEC1CE6026B00344D1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB7F3FEE1CE6026B00344D1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB7F3FEF1CE6026B00344D1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB7F3FF11CE6026B00344D1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB7F3FF21CE6026B00344D1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB7F3FF51CE6026B00344D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB7F3FF71CE6026B00344D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB7F3FFA1CE6026B00344D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB7F3FFC1CE6026B00344D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7F40011CE6026B00344D1E /* WikitudeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikitudeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7F40051CE6026B00344D1E /* WikitudeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikitudeTestTests.m; sourceTree = "<group>"; };
+		DB7F40071CE6026B00344D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7F400C1CE6026B00344D1E /* WikitudeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikitudeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7F40101CE6026B00344D1E /* WikitudeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikitudeTestUITests.m; sourceTree = "<group>"; };
+		DB7F40121CE6026B00344D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7F401F1CE602C300344D1E /* WikitudeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WikitudeSDK.framework; sourceTree = "<group>"; };
+		DB7F40211CE603AE00344D1E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DB7F40221CE603AE00344D1E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DB7F40231CE603AE00344D1E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB7F40241CE603AE00344D1E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DB7F40251CE603AE00344D1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB7F40261CE603AE00344D1E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DB7F40271CE603AE00344D1E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DB7F40281CE603AE00344D1E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DB7F40291CE603AE00344D1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB7F402A1CE603AE00344D1E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		DB7F402B1CE603AE00344D1E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DB7F402C1CE603AE00344D1E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DB7F402D1CE603AE00344D1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DB7F402E1CE603AE00344D1E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DB7F402F1CE603AE00344D1E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DB7F40301CE603AE00344D1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB7F40411CE603C700344D1E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DB7F40431CE603D200344D1E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DBBC40DF1CEA088D00955C8B /* imageOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageOne.png; sourceTree = "<group>"; };
+		DBBC40E01CEA088D00955C8B /* magazine.wtc */ = {isa = PBXFileReference; lastKnownFileType = file; path = magazine.wtc; sourceTree = "<group>"; };
+		DBBC40E11CEA088D00955C8B /* surfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surfer.png; sourceTree = "<group>"; };
+		DBBC40E31CEA088D00955C8B /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		DBBC40E41CEA088D00955C8B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DBBC40E61CEA088D00955C8B /* imageontarget.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = imageontarget.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB7F3FE51CE6026B00344D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F40441CE603D200344D1E /* libz.tbd in Frameworks */,
+				DB7F40421CE603C700344D1E /* libc++.tbd in Frameworks */,
+				DB7F40311CE603AE00344D1E /* Accelerate.framework in Frameworks */,
+				DB7F40321CE603AE00344D1E /* AssetsLibrary.framework in Frameworks */,
+				DB7F40331CE603AE00344D1E /* AVFoundation.framework in Frameworks */,
+				DB7F40341CE603AE00344D1E /* CFNetwork.framework in Frameworks */,
+				DB7F40351CE603AE00344D1E /* CoreGraphics.framework in Frameworks */,
+				DB7F40361CE603AE00344D1E /* CoreLocation.framework in Frameworks */,
+				DB7F40371CE603AE00344D1E /* CoreMotion.framework in Frameworks */,
+				DB7F40381CE603AE00344D1E /* CoreVideo.framework in Frameworks */,
+				DB7F40391CE603AE00344D1E /* Foundation.framework in Frameworks */,
+				DB7F403A1CE603AE00344D1E /* JavaScriptCore.framework in Frameworks */,
+				DB7F403B1CE603AE00344D1E /* MediaPlayer.framework in Frameworks */,
+				DB7F403C1CE603AE00344D1E /* OpenGLES.framework in Frameworks */,
+				DB7F403D1CE603AE00344D1E /* QuartzCore.framework in Frameworks */,
+				DB7F403E1CE603AE00344D1E /* Security.framework in Frameworks */,
+				DB7F403F1CE603AE00344D1E /* SystemConfiguration.framework in Frameworks */,
+				DB7F40401CE603AE00344D1E /* UIKit.framework in Frameworks */,
+				DB7F40201CE602C300344D1E /* WikitudeSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7F3FFE1CE6026B00344D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7F40091CE6026B00344D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7F3FDF1CE6026A00344D1E = {
+			isa = PBXGroup;
+			children = (
+				DBBC40DD1CEA088D00955C8B /* ArchitectWorld */,
+				DB7F401E1CE6028E00344D1E /* Frameworks */,
+				DB7F3FEA1CE6026B00344D1E /* WikitudeTest */,
+				DB7F40041CE6026B00344D1E /* WikitudeTestTests */,
+				DB7F400F1CE6026B00344D1E /* WikitudeTestUITests */,
+				DB7F3FE91CE6026B00344D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7F3FE91CE6026B00344D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F3FE81CE6026B00344D1E /* WikitudeTest.app */,
+				DB7F40011CE6026B00344D1E /* WikitudeTestTests.xctest */,
+				DB7F400C1CE6026B00344D1E /* WikitudeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB7F3FEA1CE6026B00344D1E /* WikitudeTest */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F3FEE1CE6026B00344D1E /* AppDelegate.h */,
+				DB7F3FEF1CE6026B00344D1E /* AppDelegate.m */,
+				DB7F3FF11CE6026B00344D1E /* ViewController.h */,
+				DB7F3FF21CE6026B00344D1E /* ViewController.m */,
+				DB7F3FF41CE6026B00344D1E /* Main.storyboard */,
+				DB7F3FF71CE6026B00344D1E /* Assets.xcassets */,
+				DB7F3FF91CE6026B00344D1E /* LaunchScreen.storyboard */,
+				DB7F3FFC1CE6026B00344D1E /* Info.plist */,
+				DB7F3FEB1CE6026B00344D1E /* Supporting Files */,
+			);
+			path = WikitudeTest;
+			sourceTree = "<group>";
+		};
+		DB7F3FEB1CE6026B00344D1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F3FEC1CE6026B00344D1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB7F40041CE6026B00344D1E /* WikitudeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F40051CE6026B00344D1E /* WikitudeTestTests.m */,
+				DB7F40071CE6026B00344D1E /* Info.plist */,
+			);
+			path = WikitudeTestTests;
+			sourceTree = "<group>";
+		};
+		DB7F400F1CE6026B00344D1E /* WikitudeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F40101CE6026B00344D1E /* WikitudeTestUITests.m */,
+				DB7F40121CE6026B00344D1E /* Info.plist */,
+			);
+			path = WikitudeTestUITests;
+			sourceTree = "<group>";
+		};
+		DB7F401E1CE6028E00344D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F40431CE603D200344D1E /* libz.tbd */,
+				DB7F40411CE603C700344D1E /* libc++.tbd */,
+				DB7F40211CE603AE00344D1E /* Accelerate.framework */,
+				DB7F40221CE603AE00344D1E /* AssetsLibrary.framework */,
+				DB7F40231CE603AE00344D1E /* AVFoundation.framework */,
+				DB7F40241CE603AE00344D1E /* CFNetwork.framework */,
+				DB7F40251CE603AE00344D1E /* CoreGraphics.framework */,
+				DB7F40261CE603AE00344D1E /* CoreLocation.framework */,
+				DB7F40271CE603AE00344D1E /* CoreMotion.framework */,
+				DB7F40281CE603AE00344D1E /* CoreVideo.framework */,
+				DB7F40291CE603AE00344D1E /* Foundation.framework */,
+				DB7F402A1CE603AE00344D1E /* JavaScriptCore.framework */,
+				DB7F402B1CE603AE00344D1E /* MediaPlayer.framework */,
+				DB7F402C1CE603AE00344D1E /* OpenGLES.framework */,
+				DB7F402D1CE603AE00344D1E /* QuartzCore.framework */,
+				DB7F402E1CE603AE00344D1E /* Security.framework */,
+				DB7F402F1CE603AE00344D1E /* SystemConfiguration.framework */,
+				DB7F40301CE603AE00344D1E /* UIKit.framework */,
+				DB7F401F1CE602C300344D1E /* WikitudeSDK.framework */,
+			);
+			name = Frameworks;
+			path = WikitudeTest;
+			sourceTree = "<group>";
+		};
+		DBBC40DD1CEA088D00955C8B /* ArchitectWorld */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC40DE1CEA088D00955C8B /* assets */,
+				DBBC40E21CEA088D00955C8B /* css */,
+				DBBC40E41CEA088D00955C8B /* index.html */,
+				DBBC40E51CEA088D00955C8B /* js */,
+			);
+			path = ArchitectWorld;
+			sourceTree = "<group>";
+		};
+		DBBC40DE1CEA088D00955C8B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC40DF1CEA088D00955C8B /* imageOne.png */,
+				DBBC40E01CEA088D00955C8B /* magazine.wtc */,
+				DBBC40E11CEA088D00955C8B /* surfer.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		DBBC40E21CEA088D00955C8B /* css */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC40E31CEA088D00955C8B /* default.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		DBBC40E51CEA088D00955C8B /* js */ = {
+			isa = PBXGroup;
+			children = (
+				DBBC40E61CEA088D00955C8B /* imageontarget.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB7F3FE71CE6026B00344D1E /* WikitudeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7F40151CE6026B00344D1E /* Build configuration list for PBXNativeTarget "WikitudeTest" */;
+			buildPhases = (
+				DB7F3FE41CE6026B00344D1E /* Sources */,
+				DB7F3FE51CE6026B00344D1E /* Frameworks */,
+				DB7F3FE61CE6026B00344D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikitudeTest;
+			productName = WikitudeTest;
+			productReference = DB7F3FE81CE6026B00344D1E /* WikitudeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB7F40001CE6026B00344D1E /* WikitudeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7F40181CE6026B00344D1E /* Build configuration list for PBXNativeTarget "WikitudeTestTests" */;
+			buildPhases = (
+				DB7F3FFD1CE6026B00344D1E /* Sources */,
+				DB7F3FFE1CE6026B00344D1E /* Frameworks */,
+				DB7F3FFF1CE6026B00344D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7F40031CE6026B00344D1E /* PBXTargetDependency */,
+			);
+			name = WikitudeTestTests;
+			productName = WikitudeTestTests;
+			productReference = DB7F40011CE6026B00344D1E /* WikitudeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB7F400B1CE6026B00344D1E /* WikitudeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7F401B1CE6026B00344D1E /* Build configuration list for PBXNativeTarget "WikitudeTestUITests" */;
+			buildPhases = (
+				DB7F40081CE6026B00344D1E /* Sources */,
+				DB7F40091CE6026B00344D1E /* Frameworks */,
+				DB7F400A1CE6026B00344D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7F400E1CE6026B00344D1E /* PBXTargetDependency */,
+			);
+			name = WikitudeTestUITests;
+			productName = WikitudeTestUITests;
+			productReference = DB7F400C1CE6026B00344D1E /* WikitudeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7F3FE01CE6026A00344D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sammy Sadati";
+				TargetAttributes = {
+					DB7F3FE71CE6026B00344D1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8M3LFFK53N;
+					};
+					DB7F40001CE6026B00344D1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8M3LFFK53N;
+						TestTargetID = DB7F3FE71CE6026B00344D1E;
+					};
+					DB7F400B1CE6026B00344D1E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8M3LFFK53N;
+						TestTargetID = DB7F3FE71CE6026B00344D1E;
+					};
+				};
+			};
+			buildConfigurationList = DB7F3FE31CE6026A00344D1E /* Build configuration list for PBXProject "WikitudeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB7F3FDF1CE6026A00344D1E;
+			productRefGroup = DB7F3FE91CE6026B00344D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7F3FE71CE6026B00344D1E /* WikitudeTest */,
+				DB7F40001CE6026B00344D1E /* WikitudeTestTests */,
+				DB7F400B1CE6026B00344D1E /* WikitudeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB7F3FE61CE6026B00344D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBC40E91CEA088D00955C8B /* surfer.png in Resources */,
+				DBBC40EC1CEA088D00955C8B /* imageontarget.js in Resources */,
+				DBBC40E71CEA088D00955C8B /* imageOne.png in Resources */,
+				DB7F3FFB1CE6026B00344D1E /* LaunchScreen.storyboard in Resources */,
+				DBBC40E81CEA088D00955C8B /* magazine.wtc in Resources */,
+				DBBC40EA1CEA088D00955C8B /* default.css in Resources */,
+				DBBC40EB1CEA088D00955C8B /* index.html in Resources */,
+				DB7F3FF81CE6026B00344D1E /* Assets.xcassets in Resources */,
+				DB7F3FF61CE6026B00344D1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7F3FFF1CE6026B00344D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7F400A1CE6026B00344D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB7F3FE41CE6026B00344D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F3FF31CE6026B00344D1E /* ViewController.m in Sources */,
+				DB7F3FF01CE6026B00344D1E /* AppDelegate.m in Sources */,
+				DB7F3FED1CE6026B00344D1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7F3FFD1CE6026B00344D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F40061CE6026B00344D1E /* WikitudeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7F40081CE6026B00344D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F40111CE6026B00344D1E /* WikitudeTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB7F40031CE6026B00344D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7F3FE71CE6026B00344D1E /* WikitudeTest */;
+			targetProxy = DB7F40021CE6026B00344D1E /* PBXContainerItemProxy */;
+		};
+		DB7F400E1CE6026B00344D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7F3FE71CE6026B00344D1E /* WikitudeTest */;
+			targetProxy = DB7F400D1CE6026B00344D1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB7F3FF41CE6026B00344D1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7F3FF51CE6026B00344D1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB7F3FF91CE6026B00344D1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7F3FFA1CE6026B00344D1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB7F40131CE6026B00344D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB7F40141CE6026B00344D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB7F40161CE6026B00344D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WikitudeTest",
+				);
+				INFOPLIST_FILE = WikitudeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sammysadati.WikitudeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB7F40171CE6026B00344D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WikitudeTest",
+				);
+				INFOPLIST_FILE = WikitudeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sammysadati.WikitudeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB7F40191CE6026B00344D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WikitudeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sammysadati.WikitudeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikitudeTest.app/WikitudeTest";
+			};
+			name = Debug;
+		};
+		DB7F401A1CE6026B00344D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WikitudeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sammysadati.WikitudeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikitudeTest.app/WikitudeTest";
+			};
+			name = Release;
+		};
+		DB7F401C1CE6026B00344D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WikitudeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sammysadati.WikitudeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WikitudeTest;
+			};
+			name = Debug;
+		};
+		DB7F401D1CE6026B00344D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WikitudeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sammysadati.WikitudeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WikitudeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB7F3FE31CE6026A00344D1E /* Build configuration list for PBXProject "WikitudeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7F40131CE6026B00344D1E /* Debug */,
+				DB7F40141CE6026B00344D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7F40151CE6026B00344D1E /* Build configuration list for PBXNativeTarget "WikitudeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7F40161CE6026B00344D1E /* Debug */,
+				DB7F40171CE6026B00344D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7F40181CE6026B00344D1E /* Build configuration list for PBXNativeTarget "WikitudeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7F40191CE6026B00344D1E /* Debug */,
+				DB7F401A1CE6026B00344D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7F401B1CE6026B00344D1E /* Build configuration list for PBXNativeTarget "WikitudeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7F401C1CE6026B00344D1E /* Debug */,
+				DB7F401D1CE6026B00344D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7F3FE01CE6026A00344D1E /* Project object */;
+}

@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB55EA071CEA73F900ADDC4E /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB55EA061CEA73F900ADDC4E /* TutorialViewController.m */; };
+		DBC8FF291CE61CF4007EEBB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC8FF281CE61CF4007EEBB8 /* main.m */; };
+		DBC8FF2C1CE61CF4007EEBB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC8FF2B1CE61CF4007EEBB8 /* AppDelegate.m */; };
+		DBC8FF2F1CE61CF4007EEBB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC8FF2E1CE61CF4007EEBB8 /* ViewController.m */; };
+		DBC8FF321CE61CF4007EEBB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC8FF301CE61CF4007EEBB8 /* Main.storyboard */; };
+		DBC8FF341CE61CF4007EEBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8FF331CE61CF4007EEBB8 /* Assets.xcassets */; };
+		DBC8FF371CE61CF4007EEBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC8FF351CE61CF4007EEBB8 /* LaunchScreen.storyboard */; };
+		DBC8FF421CE61CF4007EEBB8 /* CoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC8FF411CE61CF4007EEBB8 /* CoopTests.m */; };
+		DBC8FF4D1CE61CF4007EEBB8 /* CoopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC8FF4C1CE61CF4007EEBB8 /* CoopUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC8FF3E1CE61CF4007EEBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC8FF1C1CE61CF4007EEBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC8FF231CE61CF4007EEBB8;
+			remoteInfo = Coop;
+		};
+		DBC8FF491CE61CF4007EEBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC8FF1C1CE61CF4007EEBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC8FF231CE61CF4007EEBB8;
+			remoteInfo = Coop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB55EA051CEA73F900ADDC4E /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		DB55EA061CEA73F900ADDC4E /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		DBC8FF241CE61CF4007EEBB8 /* Coop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8FF281CE61CF4007EEBB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBC8FF2A1CE61CF4007EEBB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBC8FF2B1CE61CF4007EEBB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBC8FF2D1CE61CF4007EEBB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBC8FF2E1CE61CF4007EEBB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBC8FF311CE61CF4007EEBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC8FF331CE61CF4007EEBB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC8FF361CE61CF4007EEBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC8FF381CE61CF4007EEBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC8FF3D1CE61CF4007EEBB8 /* CoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8FF411CE61CF4007EEBB8 /* CoopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoopTests.m; sourceTree = "<group>"; };
+		DBC8FF431CE61CF4007EEBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC8FF481CE61CF4007EEBB8 /* CoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8FF4C1CE61CF4007EEBB8 /* CoopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoopUITests.m; sourceTree = "<group>"; };
+		DBC8FF4E1CE61CF4007EEBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC8FF211CE61CF4007EEBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8FF3A1CE61CF4007EEBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8FF451CE61CF4007EEBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC8FF1B1CE61CF4007EEBB8 = {
+			isa = PBXGroup;
+			children = (
+				DBC8FF261CE61CF4007EEBB8 /* Coop */,
+				DBC8FF401CE61CF4007EEBB8 /* CoopTests */,
+				DBC8FF4B1CE61CF4007EEBB8 /* CoopUITests */,
+				DBC8FF251CE61CF4007EEBB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC8FF251CE61CF4007EEBB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8FF241CE61CF4007EEBB8 /* Coop.app */,
+				DBC8FF3D1CE61CF4007EEBB8 /* CoopTests.xctest */,
+				DBC8FF481CE61CF4007EEBB8 /* CoopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC8FF261CE61CF4007EEBB8 /* Coop */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8FF2A1CE61CF4007EEBB8 /* AppDelegate.h */,
+				DBC8FF2B1CE61CF4007EEBB8 /* AppDelegate.m */,
+				DBC8FF2D1CE61CF4007EEBB8 /* ViewController.h */,
+				DBC8FF2E1CE61CF4007EEBB8 /* ViewController.m */,
+				DBC8FF301CE61CF4007EEBB8 /* Main.storyboard */,
+				DBC8FF331CE61CF4007EEBB8 /* Assets.xcassets */,
+				DBC8FF351CE61CF4007EEBB8 /* LaunchScreen.storyboard */,
+				DBC8FF381CE61CF4007EEBB8 /* Info.plist */,
+				DBC8FF271CE61CF4007EEBB8 /* Supporting Files */,
+				DB55EA051CEA73F900ADDC4E /* TutorialViewController.h */,
+				DB55EA061CEA73F900ADDC4E /* TutorialViewController.m */,
+			);
+			path = Coop;
+			sourceTree = "<group>";
+		};
+		DBC8FF271CE61CF4007EEBB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8FF281CE61CF4007EEBB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC8FF401CE61CF4007EEBB8 /* CoopTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8FF411CE61CF4007EEBB8 /* CoopTests.m */,
+				DBC8FF431CE61CF4007EEBB8 /* Info.plist */,
+			);
+			path = CoopTests;
+			sourceTree = "<group>";
+		};
+		DBC8FF4B1CE61CF4007EEBB8 /* CoopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8FF4C1CE61CF4007EEBB8 /* CoopUITests.m */,
+				DBC8FF4E1CE61CF4007EEBB8 /* Info.plist */,
+			);
+			path = CoopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC8FF231CE61CF4007EEBB8 /* Coop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8FF511CE61CF4007EEBB8 /* Build configuration list for PBXNativeTarget "Coop" */;
+			buildPhases = (
+				DBC8FF201CE61CF4007EEBB8 /* Sources */,
+				DBC8FF211CE61CF4007EEBB8 /* Frameworks */,
+				DBC8FF221CE61CF4007EEBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coop;
+			productName = Coop;
+			productReference = DBC8FF241CE61CF4007EEBB8 /* Coop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC8FF3C1CE61CF4007EEBB8 /* CoopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8FF541CE61CF4007EEBB8 /* Build configuration list for PBXNativeTarget "CoopTests" */;
+			buildPhases = (
+				DBC8FF391CE61CF4007EEBB8 /* Sources */,
+				DBC8FF3A1CE61CF4007EEBB8 /* Frameworks */,
+				DBC8FF3B1CE61CF4007EEBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC8FF3F1CE61CF4007EEBB8 /* PBXTargetDependency */,
+			);
+			name = CoopTests;
+			productName = CoopTests;
+			productReference = DBC8FF3D1CE61CF4007EEBB8 /* CoopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC8FF471CE61CF4007EEBB8 /* CoopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8FF571CE61CF4007EEBB8 /* Build configuration list for PBXNativeTarget "CoopUITests" */;
+			buildPhases = (
+				DBC8FF441CE61CF4007EEBB8 /* Sources */,
+				DBC8FF451CE61CF4007EEBB8 /* Frameworks */,
+				DBC8FF461CE61CF4007EEBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC8FF4A1CE61CF4007EEBB8 /* PBXTargetDependency */,
+			);
+			name = CoopUITests;
+			productName = CoopUITests;
+			productReference = DBC8FF481CE61CF4007EEBB8 /* CoopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC8FF1C1CE61CF4007EEBB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Erasmushogeschool Brussel";
+				TargetAttributes = {
+					DBC8FF231CE61CF4007EEBB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8M3LFFK53N;
+					};
+					DBC8FF3C1CE61CF4007EEBB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8M3LFFK53N;
+						TestTargetID = DBC8FF231CE61CF4007EEBB8;
+					};
+					DBC8FF471CE61CF4007EEBB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8M3LFFK53N;
+						TestTargetID = DBC8FF231CE61CF4007EEBB8;
+					};
+				};
+			};
+			buildConfigurationList = DBC8FF1F1CE61CF4007EEBB8 /* Build configuration list for PBXProject "Coop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC8FF1B1CE61CF4007EEBB8;
+			productRefGroup = DBC8FF251CE61CF4007EEBB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC8FF231CE61CF4007EEBB8 /* Coop */,
+				DBC8FF3C1CE61CF4007EEBB8 /* CoopTests */,
+				DBC8FF471CE61CF4007EEBB8 /* CoopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC8FF221CE61CF4007EEBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8FF371CE61CF4007EEBB8 /* LaunchScreen.storyboard in Resources */,
+				DBC8FF341CE61CF4007EEBB8 /* Assets.xcassets in Resources */,
+				DBC8FF321CE61CF4007EEBB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8FF3B1CE61CF4007EEBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8FF461CE61CF4007EEBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC8FF201CE61CF4007EEBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8FF2F1CE61CF4007EEBB8 /* ViewController.m in Sources */,
+				DBC8FF2C1CE61CF4007EEBB8 /* AppDelegate.m in Sources */,
+				DB55EA071CEA73F900ADDC4E /* TutorialViewController.m in Sources */,
+				DBC8FF291CE61CF4007EEBB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8FF391CE61CF4007EEBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8FF421CE61CF4007EEBB8 /* CoopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8FF441CE61CF4007EEBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8FF4D1CE61CF4007EEBB8 /* CoopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC8FF3F1CE61CF4007EEBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC8FF231CE61CF4007EEBB8 /* Coop */;
+			targetProxy = DBC8FF3E1CE61CF4007EEBB8 /* PBXContainerItemProxy */;
+		};
+		DBC8FF4A1CE61CF4007EEBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC8FF231CE61CF4007EEBB8 /* Coop */;
+			targetProxy = DBC8FF491CE61CF4007EEBB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC8FF301CE61CF4007EEBB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC8FF311CE61CF4007EEBB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC8FF351CE61CF4007EEBB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC8FF361CE61CF4007EEBB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC8FF4F1CE61CF4007EEBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC8FF501CE61CF4007EEBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC8FF521CE61CF4007EEBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coop3.Coop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBC8FF531CE61CF4007EEBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coop3.Coop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBC8FF551CE61CF4007EEBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coop3.CoopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coop.app/Coop";
+			};
+			name = Debug;
+		};
+		DBC8FF561CE61CF4007EEBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coop3.CoopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coop.app/Coop";
+			};
+			name = Release;
+		};
+		DBC8FF581CE61CF4007EEBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coop3.CoopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coop;
+			};
+			name = Debug;
+		};
+		DBC8FF591CE61CF4007EEBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coop3.CoopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC8FF1F1CE61CF4007EEBB8 /* Build configuration list for PBXProject "Coop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8FF4F1CE61CF4007EEBB8 /* Debug */,
+				DBC8FF501CE61CF4007EEBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8FF511CE61CF4007EEBB8 /* Build configuration list for PBXNativeTarget "Coop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8FF521CE61CF4007EEBB8 /* Debug */,
+				DBC8FF531CE61CF4007EEBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8FF541CE61CF4007EEBB8 /* Build configuration list for PBXNativeTarget "CoopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8FF551CE61CF4007EEBB8 /* Debug */,
+				DBC8FF561CE61CF4007EEBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8FF571CE61CF4007EEBB8 /* Build configuration list for PBXNativeTarget "CoopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8FF581CE61CF4007EEBB8 /* Debug */,
+				DBC8FF591CE61CF4007EEBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC8FF1C1CE61CF4007EEBB8 /* Project object */;
+}
