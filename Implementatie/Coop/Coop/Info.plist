@@ -36,6 +36,22 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>gotham-black.ttf</string>
+		<string>gotham-bold.ttf</string>
+		<string>gotham-book.ttf</string>
+		<string>gotham-light.ttf</string>
+		<string>gotham-medium.ttf</string>
+		<string>gotham-thin.ttf</string>
+		<string>gotham-ultra.ttf</string>
+		<string>WhitneyBlack.ttf</string>
+		<string>WhitneyBold.ttf</string>
+		<string>WhitneyBook.ttf</string>
+		<string>WhitneyLight.ttf</string>
+		<string>WhitneyMedium.ttf</string>
+		<string>WhitneySemibold.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

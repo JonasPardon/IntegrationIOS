@@ -7,7 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1EA4ED1CEC5E2500499A6E /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1EA4E61CEC5E2500499A6E /* TAAbstractDotView.m */; };
+		DB1EA4EE1CEC5E2500499A6E /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1EA4E81CEC5E2500499A6E /* TAAnimatedDotView.m */; };
+		DB1EA4EF1CEC5E2500499A6E /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1EA4EA1CEC5E2500499A6E /* TADotView.m */; };
+		DB1EA4F01CEC5E2500499A6E /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1EA4EC1CEC5E2500499A6E /* TAPageControl.m */; };
+		DB1EA4F31CEC99FE00499A6E /* TABlueDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1EA4F21CEC99FE00499A6E /* TABlueDotView.m */; };
+		DB41C0101CEB15F600A35778 /* WhitneyBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C0051CEB15F600A35778 /* WhitneyBlack.ttf */; };
+		DB41C0121CEB15F600A35778 /* WhitneyBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C0071CEB15F600A35778 /* WhitneyBold.ttf */; };
+		DB41C0141CEB15F600A35778 /* WhitneyBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C0091CEB15F600A35778 /* WhitneyBook.ttf */; };
+		DB41C0161CEB15F600A35778 /* WhitneyLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C00B1CEB15F600A35778 /* WhitneyLight.ttf */; };
+		DB41C0181CEB15F600A35778 /* WhitneyMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C00D1CEB15F600A35778 /* WhitneyMedium.ttf */; };
+		DB41C01A1CEB15F600A35778 /* WhitneySemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C00F1CEB15F600A35778 /* WhitneySemibold.ttf */; };
+		DB41C0221CEB162600A35778 /* gotham-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C01B1CEB162600A35778 /* gotham-black.ttf */; };
+		DB41C0231CEB162600A35778 /* gotham-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C01C1CEB162600A35778 /* gotham-bold.ttf */; };
+		DB41C0241CEB162600A35778 /* gotham-book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C01D1CEB162600A35778 /* gotham-book.ttf */; };
+		DB41C0251CEB162600A35778 /* gotham-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C01E1CEB162600A35778 /* gotham-light.ttf */; };
+		DB41C0261CEB162600A35778 /* gotham-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C01F1CEB162600A35778 /* gotham-medium.ttf */; };
+		DB41C0271CEB162600A35778 /* gotham-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C0201CEB162600A35778 /* gotham-thin.ttf */; };
+		DB41C0281CEB162600A35778 /* gotham-ultra.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB41C0211CEB162600A35778 /* gotham-ultra.ttf */; };
+		DB41C02B1CEB1D9800A35778 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB41C02A1CEB1D9800A35778 /* RootViewController.m */; };
 		DB55EA071CEA73F900ADDC4E /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB55EA061CEA73F900ADDC4E /* TutorialViewController.m */; };
+		DB56550D1CEB127500A06E96 /* TutorialContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB56550C1CEB127500A06E96 /* TutorialContentViewController.m */; };
 		DBC8FF291CE61CF4007EEBB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC8FF281CE61CF4007EEBB8 /* main.m */; };
 		DBC8FF2C1CE61CF4007EEBB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC8FF2B1CE61CF4007EEBB8 /* AppDelegate.m */; };
 		DBC8FF2F1CE61CF4007EEBB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC8FF2E1CE61CF4007EEBB8 /* ViewController.m */; };
@@ -36,8 +56,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB1EA4E51CEC5E2500499A6E /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		DB1EA4E61CEC5E2500499A6E /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		DB1EA4E71CEC5E2500499A6E /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		DB1EA4E81CEC5E2500499A6E /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		DB1EA4E91CEC5E2500499A6E /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		DB1EA4EA1CEC5E2500499A6E /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		DB1EA4EB1CEC5E2500499A6E /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		DB1EA4EC1CEC5E2500499A6E /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		DB1EA4F11CEC99FE00499A6E /* TABlueDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABlueDotView.h; sourceTree = "<group>"; };
+		DB1EA4F21CEC99FE00499A6E /* TABlueDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABlueDotView.m; sourceTree = "<group>"; };
+		DB41C0051CEB15F600A35778 /* WhitneyBlack.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhitneyBlack.ttf; sourceTree = "<group>"; };
+		DB41C0071CEB15F600A35778 /* WhitneyBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhitneyBold.ttf; sourceTree = "<group>"; };
+		DB41C0091CEB15F600A35778 /* WhitneyBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhitneyBook.ttf; sourceTree = "<group>"; };
+		DB41C00B1CEB15F600A35778 /* WhitneyLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhitneyLight.ttf; sourceTree = "<group>"; };
+		DB41C00D1CEB15F600A35778 /* WhitneyMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhitneyMedium.ttf; sourceTree = "<group>"; };
+		DB41C00F1CEB15F600A35778 /* WhitneySemibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WhitneySemibold.ttf; sourceTree = "<group>"; };
+		DB41C01B1CEB162600A35778 /* gotham-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-black.ttf"; sourceTree = "<group>"; };
+		DB41C01C1CEB162600A35778 /* gotham-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-bold.ttf"; sourceTree = "<group>"; };
+		DB41C01D1CEB162600A35778 /* gotham-book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-book.ttf"; sourceTree = "<group>"; };
+		DB41C01E1CEB162600A35778 /* gotham-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-light.ttf"; sourceTree = "<group>"; };
+		DB41C01F1CEB162600A35778 /* gotham-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-medium.ttf"; sourceTree = "<group>"; };
+		DB41C0201CEB162600A35778 /* gotham-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-thin.ttf"; sourceTree = "<group>"; };
+		DB41C0211CEB162600A35778 /* gotham-ultra.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gotham-ultra.ttf"; sourceTree = "<group>"; };
+		DB41C0291CEB1D9800A35778 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DB41C02A1CEB1D9800A35778 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		DB55EA051CEA73F900ADDC4E /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
 		DB55EA061CEA73F900ADDC4E /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		DB56550B1CEB127500A06E96 /* TutorialContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialContentViewController.h; sourceTree = "<group>"; };
+		DB56550C1CEB127500A06E96 /* TutorialContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialContentViewController.m; sourceTree = "<group>"; };
 		DBC8FF241CE61CF4007EEBB8 /* Coop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC8FF281CE61CF4007EEBB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DBC8FF2A1CE61CF4007EEBB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +128,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB1EA4E41CEC5E2500499A6E /* TAPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				DB1EA4E51CEC5E2500499A6E /* TAAbstractDotView.h */,
+				DB1EA4E61CEC5E2500499A6E /* TAAbstractDotView.m */,
+				DB1EA4E71CEC5E2500499A6E /* TAAnimatedDotView.h */,
+				DB1EA4E81CEC5E2500499A6E /* TAAnimatedDotView.m */,
+				DB1EA4E91CEC5E2500499A6E /* TADotView.h */,
+				DB1EA4EA1CEC5E2500499A6E /* TADotView.m */,
+				DB1EA4EB1CEC5E2500499A6E /* TAPageControl.h */,
+				DB1EA4EC1CEC5E2500499A6E /* TAPageControl.m */,
+				DB1EA4F11CEC99FE00499A6E /* TABlueDotView.h */,
+				DB1EA4F21CEC99FE00499A6E /* TABlueDotView.m */,
+			);
+			path = TAPageControl;
+			sourceTree = "<group>";
+		};
+		DB41C0021CEB15D100A35778 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB41C0041CEB15DD00A35778 /* Whitney */,
+				DB41C0031CEB15D700A35778 /* Gotham */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		DB41C0031CEB15D700A35778 /* Gotham */ = {
+			isa = PBXGroup;
+			children = (
+				DB41C01B1CEB162600A35778 /* gotham-black.ttf */,
+				DB41C01C1CEB162600A35778 /* gotham-bold.ttf */,
+				DB41C01D1CEB162600A35778 /* gotham-book.ttf */,
+				DB41C01E1CEB162600A35778 /* gotham-light.ttf */,
+				DB41C01F1CEB162600A35778 /* gotham-medium.ttf */,
+				DB41C0201CEB162600A35778 /* gotham-thin.ttf */,
+				DB41C0211CEB162600A35778 /* gotham-ultra.ttf */,
+			);
+			name = Gotham;
+			sourceTree = "<group>";
+		};
+		DB41C0041CEB15DD00A35778 /* Whitney */ = {
+			isa = PBXGroup;
+			children = (
+				DB41C0051CEB15F600A35778 /* WhitneyBlack.ttf */,
+				DB41C0071CEB15F600A35778 /* WhitneyBold.ttf */,
+				DB41C0091CEB15F600A35778 /* WhitneyBook.ttf */,
+				DB41C00B1CEB15F600A35778 /* WhitneyLight.ttf */,
+				DB41C00D1CEB15F600A35778 /* WhitneyMedium.ttf */,
+				DB41C00F1CEB15F600A35778 /* WhitneySemibold.ttf */,
+			);
+			name = Whitney;
+			sourceTree = "<group>";
+		};
 		DBC8FF1B1CE61CF4007EEBB8 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +204,8 @@
 		DBC8FF261CE61CF4007EEBB8 /* Coop */ = {
 			isa = PBXGroup;
 			children = (
+				DB1EA4E41CEC5E2500499A6E /* TAPageControl */,
+				DB41C0021CEB15D100A35778 /* Fonts */,
 				DBC8FF2A1CE61CF4007EEBB8 /* AppDelegate.h */,
 				DBC8FF2B1CE61CF4007EEBB8 /* AppDelegate.m */,
 				DBC8FF2D1CE61CF4007EEBB8 /* ViewController.h */,
@@ -115,6 +217,10 @@
 				DBC8FF271CE61CF4007EEBB8 /* Supporting Files */,
 				DB55EA051CEA73F900ADDC4E /* TutorialViewController.h */,
 				DB55EA061CEA73F900ADDC4E /* TutorialViewController.m */,
+				DB56550B1CEB127500A06E96 /* TutorialContentViewController.h */,
+				DB56550C1CEB127500A06E96 /* TutorialContentViewController.m */,
+				DB41C0291CEB1D9800A35778 /* RootViewController.h */,
+				DB41C02A1CEB1D9800A35778 /* RootViewController.m */,
 			);
 			path = Coop;
 			sourceTree = "<group>";
@@ -252,8 +358,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC8FF371CE61CF4007EEBB8 /* LaunchScreen.storyboard in Resources */,
+				DB41C0161CEB15F600A35778 /* WhitneyLight.ttf in Resources */,
+				DB41C0101CEB15F600A35778 /* WhitneyBlack.ttf in Resources */,
 				DBC8FF341CE61CF4007EEBB8 /* Assets.xcassets in Resources */,
+				DB41C0181CEB15F600A35778 /* WhitneyMedium.ttf in Resources */,
+				DB41C01A1CEB15F600A35778 /* WhitneySemibold.ttf in Resources */,
+				DB41C0231CEB162600A35778 /* gotham-bold.ttf in Resources */,
+				DB41C0261CEB162600A35778 /* gotham-medium.ttf in Resources */,
+				DB41C0121CEB15F600A35778 /* WhitneyBold.ttf in Resources */,
+				DB41C0141CEB15F600A35778 /* WhitneyBook.ttf in Resources */,
+				DB41C0221CEB162600A35778 /* gotham-black.ttf in Resources */,
 				DBC8FF321CE61CF4007EEBB8 /* Main.storyboard in Resources */,
+				DB41C0281CEB162600A35778 /* gotham-ultra.ttf in Resources */,
+				DB41C0271CEB162600A35778 /* gotham-thin.ttf in Resources */,
+				DB41C0241CEB162600A35778 /* gotham-book.ttf in Resources */,
+				DB41C0251CEB162600A35778 /* gotham-light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +397,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1EA4F31CEC99FE00499A6E /* TABlueDotView.m in Sources */,
+				DB1EA4EE1CEC5E2500499A6E /* TAAnimatedDotView.m in Sources */,
+				DB1EA4EF1CEC5E2500499A6E /* TADotView.m in Sources */,
+				DB56550D1CEB127500A06E96 /* TutorialContentViewController.m in Sources */,
 				DBC8FF2F1CE61CF4007EEBB8 /* ViewController.m in Sources */,
+				DB41C02B1CEB1D9800A35778 /* RootViewController.m in Sources */,
+				DB1EA4ED1CEC5E2500499A6E /* TAAbstractDotView.m in Sources */,
 				DBC8FF2C1CE61CF4007EEBB8 /* AppDelegate.m in Sources */,
+				DB1EA4F01CEC5E2500499A6E /* TAPageControl.m in Sources */,
 				DB55EA071CEA73F900ADDC4E /* TutorialViewController.m in Sources */,
 				DBC8FF291CE61CF4007EEBB8 /* main.m in Sources */,
 			);

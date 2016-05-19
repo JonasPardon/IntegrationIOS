@@ -1,21 +1,27 @@
 //
-//  TutorialViewController.m
+//  TutorialContentViewController.m
 //  Coop
 //
-//  Created by Sammy Sadati on 16/05/16.
+//  Created by Sammy Sadati on 17/05/16.
 //  Copyright © 2016 Erasmushogeschool Brussel. All rights reserved.
 //
 
-#import "TutorialViewController.h"
+#import "TutorialContentViewController.h"
 
-@interface TutorialViewController ()
+@interface TutorialContentViewController ()
 
 @end
 
-@implementation TutorialViewController
+@implementation TutorialContentViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.imgMainImage.image = [UIImage imageNamed: self.imgMainImageFile];
+    self.lblTutorialText.text = self.tutorialText;
+    self.imgTablet.image = [UIImage imageNamed:self.imgTabletFile];
+    self.imgLeftHandImage.image = [UIImage imageNamed:self.imgLeftHandFile];
+    self.imgRightHandImage.image = [UIImage imageNamed:self.imgRightHandFile];
+    
 }
 
 - (void)didReceiveMemoryWarning {
